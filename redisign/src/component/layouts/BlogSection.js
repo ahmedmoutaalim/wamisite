@@ -30,7 +30,7 @@ const BlogSection = () => {
         
         <div class="card-body">
             <div class="card-category">
-                <a href="#">األستاذ :محمد حمد الناصر</a>
+                <a href="#">الأستاذ :محمد حمد الناصر</a>
             </div>
             <h2 class="card-title">
                 <a href="#">رئيس مجلس لإلدارة</a>
@@ -90,18 +90,52 @@ const BlogSection = () => {
         <header class="card-thumb">
             <a href="#"><img src={img}  alt="" /></a>
         </header>
+        
+        <div class="card-body">
+            <div class="card-category">
+                <a href="#">الأستاذ: عبد الله ناصر حمد الناصر </a>
+            </div>
+            <h2 class="card-title">
+                <a href="#"> عضو</a>
+            </h2>
+            <p class="card-description">يعمل بإدارة المحافظ العقارية واالستثمار بعدة مجاالت ولدية خبرة بإدارة المحافظ 
+الخاصة وإدارة األصول وتنميتها تتجاوز ال 25 سنة وحاصل على درجة الدبلوم في 
+إدارة االعمال و على العديد من الدورات اإلدارية والتنظيمية  
+
+ 
+            </p>
+        </div>
+
+        <footer class="card-footer">
+            
+        </footer>
+    </article>
+                        </div>
+                      
+                    </div>
+
+
+{/* ///////////////////////////////////////////////////////////////////////////////////// */}       
+
+
+<div className=" wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <div  >
+                        
+                        <article class="card">
+        <header class="card-thumb">
+            <a href="#"><img src={img}  alt="" /></a>
+        </header>
        
         <div class="card-body">
             <div class="card-category">
-                <a href="#">الستاذ عبده للا ناصر حمد الناصر</a>
+                <a href="#">الأستاذ: عبدالرحمن عمر العيسى </a>
             </div>
             <h2 class="card-title">
                 <a href="#">عضو</a>
             </h2>
-            <p class="card-description">يعمل بإدارة المحافظ العقارية واالستثمار بعدة مجاالت ولدية خبرة بإدارة المحافظ 
-الخاصة وإدارة األصول وتنميتها تتجاوز ال 25 سنة وحاصل على درجة الدبلوم في 
-إدارة االعمال و على العديد من الدورات اإلدارية والتنظيمية ودورات في إدارة األصول 
-وتنميتها ومهتم بالقطاع السكني والسياحي والصناعي ولديه العديد من االستثمارات بها 
+            <p class="card-description"> يمتلك خبره تتجاوز ال 5 سنوات في التخطيط االستراتيجي والعالقات العامة وعمل 
+كمستشار اداري وفني في عدة شركات عقارية وإدارية وعمل كمدير عالقات عامة 
+ومدير تشغيل وحاصل على درجة البكالوريوس في المالية  
             </p>
         </div>
 

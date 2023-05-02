@@ -1,0 +1,47 @@
+{
+  
+    "title1" :"Home",
+    "title2" :"About Us",
+    "title3" :"Filiers",
+    "title4" :"Our News",
+    "title5" :"Contact Us",
+
+    "sou-title1":"Our goals",
+    "sou-title2":"Our vision",
+    "sou-title3":"Our speciality",
+    "sou-title4":"Executive direction",
+
+    "header-title":"The military industry's powerhouse",
+
+    "service-content":"An emerging Saudi company with the aim of creating opportunities to import and manufacture all defense and security products to support the Saudi Armed Forces, led by a work team specialized in defense and security matters and a distinguished administrative team with many achievements in the military and commercial sectors and experience of more than a quarter of a century in these fields, and the company is working on understanding with companies The global company specializing in defense, technical security, heavy and light equipment, to import all defense and security products of all kinds, including all kinds of radars and drones, supplying smart munitions, guided munitions, hand grenades, anti-tank missiles.",
+
+    "s-1":"Our speciality",
+    "s-2":"Our vision",
+    "s-3":"Our goals",
+    "btn-m":"more",
+
+    "AboutTitle":"Last News ", 
+
+    "team-title":"Board of Directors",
+    "member1":"president of Board of Directors ",
+    "member2":"representative of president Board of Directors",
+    "member3":"member",
+
+    "member-content1":"He has more than 30 years of experience in the commercial and administrative field. He holds a bachelor’s degree in military sciences and is an executive director in several companies. He has many investments in the commercial field, real estate and industrial development, and a partner in several companies.",
+    "member-content2":"He has more than 30 years of experience in the military, strategic and diplomatic field. He holds a bachelor’s and master’s degree in military sciences and has many courses in these fields.",
+    "member-content3":"He works in the management of real estate and investment portfolios in several fields and has experience in managing private portfolios and managing and developing assets for more than 25 years. He holds a diploma in business administration and many administrative and organizational courses and courses in asset management and development. He is interested in the residential, tourism and industrial sectors and has many investments in them.",
+
+    "contact-title":"Contact Us ",
+    "btn-contact":"send",
+
+
+    "footer-titles1":"Our Links",
+    "footer-titles2":"Contacts",
+
+    "footer" :"Home",
+    "footer2" :"About Us",
+    "footer3" :"Filiers",
+    "footer4" :"Our News",
+    "footer5" :"Contact Us"
+    
+}

@@ -2,23 +2,21 @@ import React from 'react'
 import Footer from '../layouts/footer'
 import Header from '../layouts/Header'
 import HeaderHero from '../layouts/HeaderHero'
-import GetInTouch from '../layouts/GetInTouch'
+import Goals from '../layouts/goals'
 
 
-
-
-
-const contact = () => {
+const ourgoals = () => {
     return (
-        <>    
+        <>
 
             <Header/>    
-            <HeaderHero/>
-            <GetInTouch/>
+           
+            <HeaderHero/>   
+             <Goals/>
+    
             <Footer/> 
-              
         </>
     )
 }
 
-export default contact
+export default ourgoals

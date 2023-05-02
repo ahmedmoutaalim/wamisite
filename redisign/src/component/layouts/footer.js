@@ -45,7 +45,7 @@ const footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                         #
+                         
                             <div className="col-xl-3 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="1.0s">
                                 <div className="widget widget_getintuch">
                                     <h5 className="footer-title">Contact</h5>

@@ -1,11 +1,8 @@
 import React,{useEffect, useState} from 'react'
 import { NavLink , Link } from 'react-router-dom';
 import wLogo from '../../images/logo.png'
-import saoudi from '../../images/arabie-saoudite.png'
-import usa from '../../images/etats-unis.png'
 import {useTranslation} from 'react-i18next'
 import useScrollPosition from "use-scroll-position";
-
 
 
 
@@ -69,31 +66,32 @@ const Header = () => {
                                 <NavLink to="/"><img src={wLogo} alt="" /></NavLink>
                             </div>
                             <ul className="nav navbar-nav navbar ">
-                                <li><NavLink to={"/"}><span className={'clr'} >{t('title1')}</span></NavLink></li>
-                                <li><NavLink to="/services"><span className={'clr'}>{t('title2')}</span></NavLink></li>
-                                <li className={`${open === "blog" ? "open " : ""}`}><a onClick={() => setOpen("blog")}><span className={'clr'}>{t('title3')}</span><i className="fa fa-chevron-down clr"></i></a>
+                                <li><NavLink to={"/"}><span className={'clr'} >{t('title')}</span></NavLink></li>
+                                <li><NavLink to="/services"><span className={'clr'}>عن الشركة</span></NavLink></li>
+                                <li className={`${open === "blog" ? "open " : ""}`}><a onClick={() => setOpen("blog")}><span className={'clr'}>الاقسام</span><i className="fa fa-chevron-down clr"></i></a>
                                     <ul className="sub-menu">
-                                        <li><Link to="/ourgoals"><a>{t('sou-title1')}</a></Link></li>
-                                        <li><Link href="/"><a>{t('sou-title2')}</a></Link></li>
-                                        <li><Link href="/"><a>{t('sou-title3')} </a></Link></li>
-                                        <li><Link to="/Direction"><a> {t('sou-title4')}</a></Link></li>
+                                        <li><Link to="/ourgoals"><a>اهدافنا</a></Link></li>
+                                        <li><Link href="/"><a>رايتنا</a></Link></li>
+                                        <li><Link href="/"><a>ما يميزنا</a></Link></li>
+                                        <li><Link to="/Direction"><a>الادارة التنفيدية</a></Link></li>
                                     </ul>
                                 </li>
-                                <li><NavLink to={"/About"}><span className={'clr'}>{t('title4')}</span></NavLink></li>
+                                <li><NavLink to={"/About"}><span className={'clr'}>اخبارنا</span></NavLink></li>
                               
                         
                                  
                                
 
-                                <li><NavLink to="/contact"><span className={'clr'}> {t('title5')}</span></NavLink></li>
+                                <li><NavLink to="/contact"><span className={'clr'}>تواصل معنا</span></NavLink></li>
 
-        
-	   
- 
+                                <div class="switch">
+	    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox"/>
+	    <label for="language-toggle"></label>
+	    <button onClick={()=>{i18n.changeLanguage('ar')}} class="on">AR</button>
+	    <button onClick={()=>{i18n.changeLanguage('en')}} class="off">EN</button>
+  	</div>
 
                             </ul>
-                         { i18n.language == 'en' &&  <img onClick={()=>{i18n.changeLanguage('ar')}}  className="logostl" src={saoudi} alt=""/>}
-                         { i18n.language == 'ar' &&  <img onClick={()=>{i18n.changeLanguage('en')}} className="logostl" src={usa} alt=""/>}
                             <div className="dlab-social-icon">
                                 <ul>
                                        <li><a className="fa fa-facebook" href="#"></a></li>
