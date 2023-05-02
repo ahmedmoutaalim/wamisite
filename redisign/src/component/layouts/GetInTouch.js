@@ -1,10 +1,10 @@
 import React from 'react'
-
+import {useTranslation} from 'react-i18next'
 import emailjs from 'emailjs-com' 
 import Swal from 'sweetalert2'
 
 const GetInTouch = () => {
-
+    const [t , i18n] = useTranslation();
     function sendEmail(e) {
         e.preventDefault();
 
@@ -39,7 +39,7 @@ const GetInTouch = () => {
             <div className="col-lg-12 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
                 <form onSubmit={sendEmail} className="dlab-form style-1 dzForm" >
                     <div className="section-head style-3">
-                        <h2 className="contact-center">تواصل معنا</h2>
+                        <h2 className="contact-center">{t("contact-title")} </h2>
                         <hr className='hrstl'></hr>
                      
                     </div>
@@ -70,7 +70,7 @@ const GetInTouch = () => {
                             </div>
                         </div>
                         <div className="col-sm-12">
-                            <button type="submit" className="btn btn-corner gradient btn-block btn-primary">ارسال</button>
+                            <button type="submit" className="btn btn-corner gradient btn-block btn-primary"> {t("btn-contact")}</button>
                         </div>
                     </div>
                 </form>

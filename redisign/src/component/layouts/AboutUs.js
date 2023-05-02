@@ -2,8 +2,10 @@ import React from 'react'
 
 import {NavLink} from 'react-router-dom'
 import img5 from '../../images/img5.jpg'
+import {useTranslation} from 'react-i18next'
 
 const AboutUs = () => {
+  const [t , i18n] = useTranslation();
     return (
         <>
       {/* <!-- About Us --> */}
@@ -18,7 +20,7 @@ const AboutUs = () => {
             <div className="col-lg-6">
               <div className="section-head style-3 mb-4">
                 <h2 className="title">
-                  آخر الأخبار
+                   {t("AboutTitle")}
                 </h2>
                 <div className="dlab-separator style-2 bg-primary"></div>
               </div>

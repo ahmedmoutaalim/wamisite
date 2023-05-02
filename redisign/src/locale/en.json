@@ -26,10 +26,12 @@
     "member1":"president of Board of Directors ",
     "member2":"representative of president Board of Directors",
     "member3":"member",
+    "member4":"member",
 
     "member-content1":"He has more than 30 years of experience in the commercial and administrative field. He holds a bachelor’s degree in military sciences and is an executive director in several companies. He has many investments in the commercial field, real estate and industrial development, and a partner in several companies.",
     "member-content2":"He has more than 30 years of experience in the military, strategic and diplomatic field. He holds a bachelor’s and master’s degree in military sciences and has many courses in these fields.",
     "member-content3":"He works in the management of real estate and investment portfolios in several fields and has experience in managing private portfolios and managing and developing assets for more than 25 years. He holds a diploma in business administration and many administrative and organizational courses and courses in asset management and development. He is interested in the residential, tourism and industrial sectors and has many investments in them.",
+    "member-content4":"Il a plus de 5 ans d'expérience en planification stratégique, relations publiques et travail En tant que consultant administratif et technique dans plusieurs sociétés immobilières et administratives, et a travaillé comme responsable des relations publiques Responsable des Opérations et titulaire d'un Baccalauréat en Finance",
 
     "contact-title":"Contact Us ",
     "btn-contact":"send",
@@ -42,6 +44,7 @@
     "footer2" :"About Us",
     "footer3" :"Filiers",
     "footer4" :"Our News",
-    "footer5" :"Contact Us"
+    "footer5" :"Contact Us",
+    "ss":"saoudi"
     
 }

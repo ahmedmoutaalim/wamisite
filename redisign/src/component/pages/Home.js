@@ -11,7 +11,7 @@ import Client from '../layouts/Client'
 import GetInTouch from '../layouts/GetInTouch'
 
 import Ssection from '../layouts/S-section'
-
+import {useTranslation} from 'react-i18next'
 
 
 const Home = () => {

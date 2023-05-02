@@ -1,11 +1,13 @@
 import React from 'react'
 import test from '../../images/pngLogoFooter.png'
 import Back from '../../images/5166950.jpg'
-
+import {useTranslation} from 'react-i18next'
 import { NavLink, Link, BrowserRouter } from 'react-router-dom'
 
-const footer = () => {
+const Footer = () => {
+    const [t , i18n] = useTranslation();
     return (
+        
         <>
 
             <footer className="site-footer style-3" id="footer" >
@@ -35,20 +37,20 @@ const footer = () => {
                             </div>
                             <div className="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
                                 <div className="widget widget_services style-1">
-                                    <h5 className="footer-title">Nos liens</h5>
+                                    <h5 className="footer-title">{t("footer-titles1")}</h5>
                                     <ul>
-                                        <li><NavLink to="/">الرئيسية</NavLink></li>
-                                        <li><NavLink to={"#"}>عن الشركة</NavLink></li>
-                                        <li><NavLink to={"#"}>اهدافنا</NavLink></li>
-                                        <li><NavLink to="#">رايتنا</NavLink></li>
-                                        <li><NavLink to="#">تواصل معنا</NavLink></li>
+                                        <li><NavLink to="/"> {t("footer")}</NavLink></li>
+                                        <li><NavLink to={"#"}> {t("footer2")}</NavLink></li>
+                                        <li><NavLink to={"#"}>{t("footer3")}</NavLink></li>
+                                        <li><NavLink to="#">{t("footer4")}</NavLink></li>
+                                        <li><NavLink to="#"> {t("footer5")}</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
                          
                             <div className="col-xl-3 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="1.0s">
                                 <div className="widget widget_getintuch">
-                                    <h5 className="footer-title">Contact</h5>
+                                    <h5 className="footer-title">{t("footer-titles2")}</h5>
                                     <ul>
                                         <li>
                                             <i className="fa fa-phone gradient"></i>
@@ -60,7 +62,7 @@ const footer = () => {
                                         </li>
                                         <li>
                                             <i className="fa fa-map-marker gradient"></i>
-                                            <span>السعودية</span>
+                                            <span>{t("ss")}</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -85,4 +87,4 @@ const footer = () => {
     )
 }
 
-export default footer
+export default Footer

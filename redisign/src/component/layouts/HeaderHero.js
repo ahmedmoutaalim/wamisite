@@ -4,8 +4,7 @@ import img from '../../images/wowre.png'
 import About from '../pages/About'
 import { NavLink } from 'react-router-dom'
 import * as loti from '../../images/start3.json'
-import Lottie from 'react-lottie'
-import PBg from 'particles-bg'
+import {useTranslation} from 'react-i18next'
 
 
 
@@ -19,6 +18,7 @@ const defaultOptions = {
 };
 
 const HeaderHero = () => {
+	const [t , i18n] = useTranslation();
     return (
         <>
            	
@@ -32,7 +32,7 @@ const HeaderHero = () => {
 									
 
 									
-									<h1 data-wow-delay="1s" data-wow-duration="3s" className="wow fadeInUp m-b20 ttl">وثاق القوة للصناعة العسكرية</h1>
+									<h1 data-wow-delay="1s" data-wow-duration="3s" className="wow fadeInUp m-b20 ttl">   {t("header-title")}</h1>
 								
 									
 								</div>

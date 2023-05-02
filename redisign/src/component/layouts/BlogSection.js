@@ -5,8 +5,10 @@ import thum2 from '../../images/blog/default/thum2.jpg'
 import thum3 from '../../images/blog/default/thum3.jpg'
 import thum4 from '../../images/blog/default/thum4.jpg'
 import img from '../../images/img5.jpg'
+import {useTranslation} from 'react-i18next'
 
 const BlogSection = () => {
+    const [t , i18n] = useTranslation();
     return (
         <>
         {/* <!-- Service --> */}
@@ -14,7 +16,7 @@ const BlogSection = () => {
             
             <div className="container" >
                 <div className="section-head style-3 text-center mb-4">
-                    <h4 className="title">مجلس الأدارة</h4>
+                    <h4 className="title">{t("team-title")}</h4>
                     <div className="dlab-separator style-2 bg-primary"></div>
                 </div>
 
@@ -33,11 +35,10 @@ const BlogSection = () => {
                 <a href="#">الأستاذ :محمد حمد الناصر</a>
             </div>
             <h2 class="card-title">
-                <a href="#">رئيس مجلس لإلدارة</a>
+                <a href="#">{t("member1")}  </a>
             </h2>
-            <p class="card-description">يمتلك خبرة تزيد عن 30 سنة في المجال التجاري واإلداري حاصل على البكالوريوس 
-في العلوم العسكرية ومدير تنفيذي في عدة شركات وله العديد من االستثمارات في 
-المجال التجاري و التطوير العقاري والصناعي وشريك في عدة شركات
+            <p class="card-description">
+            {t("member-content1")}
             </p>
         </div>
 
@@ -64,11 +65,10 @@ const BlogSection = () => {
                 <a href="#">اللواء ركن متقاعد : خالد بن زامل الحوشان</a>
             </div>
             <h2 class="card-title">
-                <a href="#">نائب رئيس مجلس االدرة </a>
+                <a href="#"> {t("member2")}   </a>
             </h2>
-            <p class="card-description">يمتلك خبرة تتجاوز 30سنة بالمجال العسكري واإلستراتيجي والدبلوماسي حاصل على 
-درجة البكالوريوس و الماجستير في العلوم العسكرية ولديه الكثير من الدورات في هذه 
-المجاالت 
+            <p class="card-description">
+            {t("member-content2")}
             </p>
         </div>
 
@@ -96,12 +96,10 @@ const BlogSection = () => {
                 <a href="#">الأستاذ: عبد الله ناصر حمد الناصر </a>
             </div>
             <h2 class="card-title">
-                <a href="#"> عضو</a>
+                <a href="#"> {t("member3")}</a>
             </h2>
-            <p class="card-description">يعمل بإدارة المحافظ العقارية واالستثمار بعدة مجاالت ولدية خبرة بإدارة المحافظ 
-الخاصة وإدارة األصول وتنميتها تتجاوز ال 25 سنة وحاصل على درجة الدبلوم في 
-إدارة االعمال و على العديد من الدورات اإلدارية والتنظيمية  
-
+            <p class="card-description">
+            {t("member-content3")}
  
             </p>
         </div>
@@ -131,11 +129,10 @@ const BlogSection = () => {
                 <a href="#">الأستاذ: عبدالرحمن عمر العيسى </a>
             </div>
             <h2 class="card-title">
-                <a href="#">عضو</a>
+                <a href="#"> {t("member4")}</a>
             </h2>
-            <p class="card-description"> يمتلك خبره تتجاوز ال 5 سنوات في التخطيط االستراتيجي والعالقات العامة وعمل 
-كمستشار اداري وفني في عدة شركات عقارية وإدارية وعمل كمدير عالقات عامة 
-ومدير تشغيل وحاصل على درجة البكالوريوس في المالية  
+            <p class="card-description">  
+            {t("member-content4")}
             </p>
         </div>
 
